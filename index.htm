@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convertidor</title>
+    <script src="jquery.js"></script>
+    <link rel="stylesheet" href="stile.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="cab">
+            <h1>Conversion de Numeros</h1>
+            <hr>
+        </div>
+        <div class="boddy">
+            <br><br><br><br><br>
+            <label for="">Numero a Convertir:</label><br>
+            <label id="message"></label>
+            <br>
+            <input type="text" id="number" name="number" onkeypress="return solo_num(event)" required>
+            <br><br>
+            <input type="button" value="Convertir" onclick="Convert()"><br><br>
+            <label for="" id="resultado"></label>
+            <br>
+            <label for="" id="maximo"></label>
+        </div>
+        <div class="footer">
+
+        </div>
+    </div>
+
+</body>
+
+<script src="main.js"></script>
+
+</html>
